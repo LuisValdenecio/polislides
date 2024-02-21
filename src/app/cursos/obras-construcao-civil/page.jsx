@@ -4,15 +4,15 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 
-import image1 from '../../../images/occ/dcc.JPG'
-import image2 from '../../../images/occ/fisica.JPG'
-import image3 from '../../../images/occ/geom_descr.JPG'
-import image4 from '../../../images/occ/informatica.JPG'
-import image5 from '../../../images/occ/lingua_inglesa.JPG'
-import image6 from '../../../images/occ/lingua_port.JPG'
-import image7 from '../../../images/occ/matematica.JPG'
-import image8 from '../../../images/occ/pol.JPG'
-import image9 from '../../../images/occ/tcoed.JPG'
+const image1 = '/images/occ/dcc.JPG'
+const image2 = '/images/occ/fisica.JPG'
+const image3 = '/images/occ/geom_descr.JPG'
+const image4 = '/images/occ/informatica.JPG'
+const image5 = '/images/occ/lingua_inglesa.JPG'
+const image6 = '/images/occ/lingua_port.JPG'
+const image7 = '/images/occ/matematica.JPG'
+const image8 = '/images/occ/pol.JPG'
+const image9 = '/images/occ/tcoed.JPG'
 
 
 

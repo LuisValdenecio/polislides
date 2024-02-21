@@ -10,14 +10,11 @@ import {
   XIcon,
 } from '@/components/SocialIcons'
 
-import image1 from '@/images/photos/image-1.jpg'
-import image2 from '@/images/photos/image-2.jpg'
-import image3 from '@/images/photos/image-3.jpg'
-import image4 from '@/images/photos/image-4.jpg'
-import image5 from '@/images/photos/image-5.jpg'
-import { getAllArticles } from '@/lib/articles'
-
-
+const image1 = '/images/photos/image-1.jpg'
+const image2 = '/images/photos/image-2.jpg'
+const image3 = '/images/photos/image-3.jpg'
+const image4 = '/images/photos/image-4.jpg'
+const image5 = '/images/photos/image-5.jpg'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -34,7 +31,7 @@ function Photos() {
   return (
     <div className="mt-16 sm:mt-20">
       <div className="-my-4 flex justify-center gap-5 overflow-hidden py-4 sm:gap-8">
-        {[image1, image2, image3, image4, image5].map((image, imageIndex) => (
+        {[{src : image1}, {src : image2}, {src : image3}, {src : image4}, {src : image5}].map((image, imageIndex) => (
           <div
             key={image.src}
             className={clsx(
@@ -43,9 +40,10 @@ function Photos() {
             )}
           >
             <Image
-              src={image}
+              src={image.src}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
+              width="600" height="600"
               className="absolute inset-0 h-full w-full object-cover"
             />
           </div>
@@ -56,7 +54,7 @@ function Photos() {
 }
 
 export default async function Home() {
-  let articles = (await getAllArticles()).slice(0, 4)
+  
 
   return (
     <>
