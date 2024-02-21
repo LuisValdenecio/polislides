@@ -1,14 +1,14 @@
 import { Container } from '@/components/Container'
 import Disciplina from '@/components/disciplinas'
 
-const image1 = '/images/contabilidade/contabilidade-financeira.PNG'
-const image2 = '/images/contabilidade/Direito.PNG'
-const image3 = '/images/contabilidade/Economia.PNG'
-const image4 = '/images/contabilidade/Empreendedorismo.PNG'
-const image5 = '/images/contabilidade/FAI.PNG'
-const image6 = '/images/contabilidade/informatica.PNG'
-const image7 = '/images/contabilidade/oge.PNG'
-const image8 = '/images/contabilidade/portugues.PNG'
+const image1 = '/images/contabilidade/contabilidade-financeira.png'
+const image2 = '/images/contabilidade/Direito.png'
+const image3 = '/images/contabilidade/Economia.png'
+const image4 = '/images/contabilidade/Empreendedorismo.png'
+const image5 = '/images/contabilidade/FAI.png'
+const image6 = '/images/contabilidade/informatica.png'
+const image7 = '/images/contabilidade/oge.png'
+const image8 = '/images/contabilidade/portugues.png'
 
 
 export default function Page() {

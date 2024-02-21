@@ -4,13 +4,13 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 
-const image1 = '/images/informatica/desenho_tecnico.JPG'
-const image2 = '/images/informatica/electrotecnia.JPG'
-const image3 = '/images/informatica/fisica.JPG'
-const image4 = '/images/informatica/OGI.JPG'
-const image5 = '/images/informatica/quimica.JPG'
-const image6 = '/images/informatica/SEAC.JPG'
-const image7 = '/images/informatica/tlp.JPG'
+const image1 = '/images/informatica/desenho_tecnico.jpg'
+const image2 = '/images/informatica/electrotecnia.jpg'
+const image3 = '/images/informatica/fisica.jpg'
+const image4 = '/images/informatica/OGI.jpg'
+const image5 = '/images/informatica/quimica.jpg'
+const image6 = '/images/informatica/SEAC.jpg'
+const image7 = '/images/informatica/tlp.jpg'
 
 
 
