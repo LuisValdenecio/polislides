@@ -4,13 +4,13 @@ import clsx from 'clsx'
 import Image from 'next/image'
 
 
-import image1 from '@/images/informatica/desenho_tecnico.jpg'
-import image2 from '@/images/informatica/electrotecnia.jpg'
-import image3 from '@/images/informatica/fisica.jpg'
-import image4 from '@/images/informatica/OGI.jpg'
-import image5 from '@/images/informatica/quimica.jpg'
-import image6 from '@/images/informatica/SEAC.jpg'
-import image7 from '@/images/informatica/tlp.jpg'
+import image1 from '../../../images/informatica/desenho_tecnico.jpg'
+import image2 from '../../../images/informatica/electrotecnia.jpg'
+import image3 from '../../../images/informatica/fisica.jpg'
+import image4 from '../../../images/informatica/OGI.jpg'
+import image5 from '../../../images/informatica/quimica.jpg'
+import image6 from '../../../images/informatica/SEAC.jpg'
+import image7 from '../../../images/informatica/tlp.jpg'
 
 
 
