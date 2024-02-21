@@ -11,7 +11,7 @@ const image7 = '/images/contabilidade/oge.PNG'
 const image8 = '/images/contabilidade/portugues.PNG'
 
 
-export default function() {
+export default function Page() {
     return (
         <>
             <Container className="mt-20">

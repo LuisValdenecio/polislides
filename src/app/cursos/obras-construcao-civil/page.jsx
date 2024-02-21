@@ -19,7 +19,7 @@ const image9 = '/images/occ/tcoed.JPG'
 
 
 
-export default function() {
+export default function Page() {
     return (
         <>
             <Container className="mt-20">
