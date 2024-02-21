@@ -12,6 +12,7 @@ export default function Disciplinas({files}) {
               src={file.image}
               alt=""
               sizes="(min-width: 640px) 18rem, 11rem"
+              width="600" height="600"
               className=""
             />
           </div>
